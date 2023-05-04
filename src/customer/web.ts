@@ -26,7 +26,7 @@ import type {
   UploadFileResponse,
   WebAPIOptions,
 } from "./structures";
-import { promises as fs } from "fs";
+import { promises as fs } from "browserify-fs";
 import axios from "axios";
 import FormData from "form-data";
 
